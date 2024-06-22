@@ -16,11 +16,44 @@
     <link rel="icon" type="image/png" href="images/logo-bg-black.png">
 </head>
 <body>
+    <section class="vh-100">
+        <div class="container-fluid h-custom">
+          <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-md-9 col-lg-6 col-xl-5">
+              <img src="images/fintech-transparent-1000x100.png"
+                id="fintech-logo" class="img-fluid" alt="imagem contendo o logo da fintech na cor roxa">
+            </div>
+            <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
+              <form>
+                <div data-mdb-input-init class="form-outline mb-4">
+                  <input type="email" class="form-control form-control-lg btn-form-inputs"
+                    placeholder="E-mail" required />
+                </div>
+      
+                <div data-mdb-input-init class="form-outline mb-3">
+                  <input type="password" class="form-control form-control-lg btn-form-inputs"
+                    placeholder="Senha" required />
+                </div>
 
-    
+      
+                <div class="text-center text-lg-start mt-4 pt-2">
+                  <button id="btn-acessar" type="submit" data-mdb-button-init data-mdb-ripple-init class="btn btn-dark btn-lg"
+                    style="padding-left: 2.5rem; padding-right: 2.5rem;">Acessar</button>
+                  <p class="small fw-bold mt-2 pt-1 mb-0">Não possui conta ainda? <a href="#"
+                      class="link">Cadastre-se</a></p>
+                </div>
+      
+              </form>
+            </div>
+          </div>
+        </div>
+      </section> 
+
+
     <!-- Link do JS do BS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
     </script>
+
 </body>
 </html>
